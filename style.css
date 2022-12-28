@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#title{
+    padding: 5px;
+    text-align: center;
+}
+.main{
+    margin: 20px 0 0 0;
+    display: none;
+}
+.main .options{
+    text-align: center;
+
+}
+.main .options button{
+    margin: 20px 60px;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.images{
+    display: flex;
+    gap: 2.4rem;
+    justify-content: center;
+}
+.images h1{
+    text-align: center;
+    background-color: blueviolet;
+}
+.images img{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    
+}
+.play-btn {
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.play-btn button{
+    font-size: 20px;
+    padding:10px 20px;
+    cursor: pointer;
+    
+}
+.show {
+    box-sizing: content-box;
+    color: rgb(144, 11, 184);
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
